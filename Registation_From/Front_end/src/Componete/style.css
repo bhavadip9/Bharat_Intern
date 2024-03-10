@@ -1,0 +1,73 @@
+.login{
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 5px; 
+    /* background-image: url('https://t4.ftcdn.net/jpg/02/81/89/73/360_F_281897358_3rj9ZBSZHo5s0L1ug7uuIHadSxh9Cc75.jpg'); */
+    box-shadow: 0px 0px 20px rgba(4, 4, 4, 0.75);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+}
+from{
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(40%);
+    flex-direction: column;
+    gap:5px;
+}
+
+
+
+.btn
+{display: inline-block;
+outline: none;
+cursor: pointer;
+font-size: 14px;
+line-height: 1;
+border-radius: 500px;
+transition-property: background-color,border-color,color,box-shadow,filter;
+transition-duration: .3s;
+border: 1px solid transparent;
+letter-spacing: 2px;
+min-width: 160px;
+text-transform: uppercase;
+white-space: normal;
+font-weight: 700;
+text-align: center;
+padding: 16px 14px 18px;
+color: #616467;
+box-shadow: inset 0 0 0 2px #616467;
+background-color: transparent;
+height: 48px;
+btn:hover{
+    color: #fff;
+    background-color: #616467;
+}
+}
+
+.box
+{
+padding: 6px 12px;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+appearance: none;
+border-radius: 4px;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+:focus{
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+}
